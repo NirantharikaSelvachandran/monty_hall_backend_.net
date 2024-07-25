@@ -12,7 +12,7 @@ To run the backend application, follow these steps:
 1. **Clone the Repository:**
    ```bash
    git clone <repository-url>
-   cd monty-hall-backend
+   cd monty_hall_backend_.net
 
 2. **Install Dependencies:**
    ```bash
