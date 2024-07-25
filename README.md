@@ -15,8 +15,9 @@ To run the backend application, follow these steps:
    cd monty-hall-backend
 
 2. **Install Dependencies:**
- ```bash
+   ```bash
    dotnet restore
 
-## Run the Application:
-dotnet run
+3. **Run the application:**
+   ```bash
+   dotnet run
