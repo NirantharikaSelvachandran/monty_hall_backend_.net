@@ -14,8 +14,10 @@ To run the backend application, follow these steps:
    git clone <repository-url>
    cd monty-hall-backend
 
-## Install Dependencies
+2. **Install Dependencies:**
+ ```bash
 dotnet restore
 
-## Run the Application
+3. **Run the Application:**
+ ```bash
 dotnet run
