@@ -16,8 +16,7 @@ To run the backend application, follow these steps:
 
 2. **Install Dependencies:**
  ```bash
-dotnet restore
+   dotnet restore
 
-3. **Run the Application:**
- ```bash
+## Run the Application:
 dotnet run
