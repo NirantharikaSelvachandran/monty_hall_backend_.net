@@ -63,7 +63,7 @@ namespace montyHallBackend.Tests
 				Assert.True(result.Losses > 0);
 				Assert.Equal(games, result.Wins + result.Losses);
 
-				// Verify the result is saved in the database
+				// Verify result is saved in database
 				var savedSimulation = context.Simulations.FirstOrDefault(s => s.Id == result.Id);
 				Assert.NotNull(savedSimulation);
 				Assert.Equal(result.TotalGames, savedSimulation.TotalGames);
